@@ -1,0 +1,9 @@
+.child__main-conteiner {
+  box-sizing:border-box;
+  margin-top: 15px;
+  padding-left: 15px;
+  width: 100%;
+  background-color: rgb(238, 208, 12);
+  font-size: 18px;
+  border:2px solid rgb(75, 30, 5);
+}

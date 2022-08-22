@@ -1,0 +1,19 @@
+
+.parent4__main-conteiner {
+  box-sizing: border-box;
+  width: 500px;
+  padding: 25px;
+  margin: 30px auto;
+  
+  font-size: 24px;
+  background-color:rgb(91, 175, 70);
+  border:5px solid wheat;
+  border-radius: 5px;
+}
+
+.parent4__main-conteiner input {
+  width: 97%;
+  height: 35px;
+  font-size: 18px;
+  padding-left: 10px;
+}

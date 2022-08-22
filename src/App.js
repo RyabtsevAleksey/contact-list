@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Parent from './components/ParentToChild/Parent';
+import Parent2 from './components/ChildToParent/Parent2';
+import Parent3 from './components/SiblingToSibling/Parent3';
+import Parent4 from './components/ParentToGrandchild/Parent4';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='main__flex' >
+      <Parent />
+      <Parent2 />
+      <Parent3 />
+      <Parent4 />
     </div>
+    </>
   );
 }
 

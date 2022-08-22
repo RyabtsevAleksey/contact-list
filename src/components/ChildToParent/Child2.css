@@ -1,0 +1,18 @@
+.child2__main-conteiner {
+  box-sizing:border-box;
+  margin-top: 15px;
+  /* padding-left: 15px; */
+  width: 100%;
+  background-color: rgb(45, 64, 230);
+  font-size: 18px;
+  border:2px solid rgb(75, 30, 5);
+}
+
+.child2__main-conteiner input {
+  width: 97%;
+  height: 35px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+
